@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     width: 80%;
     margin: auto;
@@ -30,7 +33,7 @@ header img{
 }
 header .dow{
     position: absolute;
-    bottom: 80px;
+    bottom: 120px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -113,6 +116,7 @@ footer{
     text-align: center;
     text-transform: capitalize;
 }
+
 
 
 
